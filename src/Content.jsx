@@ -42,7 +42,7 @@ function Content() {
       <div className="h-screen">
         <div className="p-5">
           <h1 className="text-text font-black text-4xl sm:text-5xl text-center uppercase">
-            Heartstopper
+            Great gift for our users!
           </h1>
         </div>
 
@@ -52,17 +52,17 @@ function Content() {
               onClick={handleClick}
               className="bg-primary-button text-background font-semibold text-3xl sm:text-5xl p-3 sm:p-5 text-center mx-auto rounded-lg mt-64 sm:mt-44 hover:shadow-2xl hover:shadow-accent/50 hover:text-text active:scale-95 transition-colors duration-200"
             >
-              <span>Start the Experience</span>
+              <span>Open Gift! 🎁</span>
             </button>
             <span className="text-text text-center mt-4">
-              Click the button above to reveal a surprise
+              Click the button above to reveal a Gift🎁
             </span>
           </div>
         )}
 
         {!isJumpscareVisible && (
           <div className="fixed w-full bottom-0 pb-8 flex flex-col justify-center items-center">
-            <span className="text-text mb-2">Made by Reeman</span>
+            <span className="text-text mb-2">Made by ❤️</span>
             <a
               href="https://github.com/ReemanS"
               className="hover:scale-110 active:scale-95 transition duration-200"
